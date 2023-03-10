@@ -3,3 +3,6 @@ All the data in this repository belongs from a course on the pluralsight.
 Course Name: GitHub Fundamentals.
 Source: Pluralsight
 
+-----------------------------
+Instructions for the sample branch
+-all of these instructions are only visible from the sample branch.
