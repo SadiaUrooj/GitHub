@@ -1,0 +1,12 @@
+name: sample-workflow
+on: [push]
+jobs:
+   explore-first-github-workflow:
+  runs-on: ubuntu-latest
+  stops:
+  - run: echo "The job is automatically triggered by a  ${{ github-event_name }} event."
+  - run:
+  - name: check out repository code
+    uses: actions/chechout@v2
+  - run:
+       ls   ${{ github.workspace }}
